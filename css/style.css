@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0 5%;
+    /*background-color: blue;*/
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height: 100px;
+    padding: 0 20px;
+    /*background-color: red;*/
+}
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #1e1e1e;
+    padding: 0 8px;
+    display: block;
+    font-family: Arial;
+    /*background-color: blue;*/
+
+}
+ul span img{
+    width: 150px;
+    /*height: 100px;*/
+}
+nav span{
+    line-height: 100px;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+body{
+    background-color: #eee;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: #1c7430;
+}
+.fa-dolly,
+.fa-home,
+.fa-store{
+    font-size: 17px;
+    color: #0b2e13;
+    padding: 0 6px;
+}
+header{
+    background: url("../img/markus-spiske-ZKNsVqbRSPE-unsplash (3).jpg");
+    width: 100%;
+    height: 77vh;
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+button{
+    background-color: #8fd19e;
+    margin:150px 44% ;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px #888888 ;
+    width: 180px;
+}
+button a{
+    font-family: sans-serif;
+    color: #0b2e13;
+}
+
+button a:hover{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: transparent;
+}
+section{
+    width: 100%;
+    background: url("../img/markus-spiske-ZKNsVqbRSPE-unsplash (3).jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+section button{
+    background-color: #8fd19e;
+    margin:10px 44% ;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px #888888 ;
+}
+table{
+    border-radius: 20px;
+    margin:70px auto;
+    border: 1px solid #0b2e13;
+    width: 70%;
+}
+table thead th{
+    font-size: 20px;
+    text-align: center;
+}
+
+table tbody td{
+    font-size: 15px;
+    text-align: center;
+}
+table,th,td{
+    border: 0.5px solid #8fd19e; border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+}
+tbody tr:nth-child(odd){
+    background-color: #8fd19e;
+}
+
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+table thead{
+    background-color: #1c7430;
+}
+h2{
+
+    background-color: #8fd19e;
+    padding: 10pxs;
+    text-align: center;
+    font-family: sans-serif;
+}
+.form{
+    /*border: 1px solid black;*/
+    border-radius: 20px;
+    width: 35%;
+    text-align: center;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(63, 191, 191, 0.4);
+}
+.error{
+    color: red !important;
+    font-size: 20px;
+}
+.success{
+    color: green !important;
+    font-size: 20px;
+}
+form input{
+    width:50%;
+    margin: 10px;
+    background: transparent;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+form p{
+    text-align: right;
+    margin-right: 26%;
+    margin-bottom:5px;
+    margin-top: 15px;
+}
+.form button{
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #8fd19e;
+    padding: 10px;
+    padding-left:65px;
+    width:50%;
+    margin:15px auto;
+
+}
+.form button a {
+    text-align: center;
+}
+.form select{
+    width: 50%;
+    margin: 10px;
+    border-radius: 20px;
+    background: transparent;
+    border-bottom: 1px solid;
+
+}
+h5{
+    margin-bottom: 10px;
+    background-color: #8fd19e;
+    padding: 10px ;
+    border-radius: 20px;
+
+}
+footer{
+    width: 100%;
+    background-color: #8fd19e;
+    text-align: center;
+    height: 50px;
+}
+@media only screen and (max-width: 768px){
+
+
+ul li{
+
+    padding: 0 10px;
+    /*background-color: red;*/
+}
+ul li a{
+    font-size: 12px;
+
+
+}
+ul span img{
+    width: 90px;
+    /*height: 100px;*/
+}
+
+
+}
